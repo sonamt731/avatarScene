@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+
+	<!-- P5 libraries -->
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+
+	<!-- 	<script src="../p5/addons/p5.sound.min.js"></script> -->
+
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/addons/p5.sound.min.js"></script>
+
+	<!-- A-Frame libraries -->
+	<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+	<!-- AFrameP5 library -->
+	<script src="https://craignyu.github.io/aframep5/libraries/aframep5.js"></script>
+
+	<!-- P5 Sketch -->
+	<script src="sketch.js"></script>
+
+	<!-- custom styles -->
+	<style>
+	</style>
+</head>
+
+<body>
+
+	<!-- container to hold our VR scene - make sure to give this element an ID of 'VRScene' -->
+	<a-scene id="VRScene">
+
+
+		<a-assets id="VRAssets">
+			<img src="sky.jpg" id="sky1">
+			<img src="assets/ocean.png" id="ocean">
+			<img src="assets/bark.png" id="bark">
+			<img src="assets/grass.png" id="grass">
+			<img src="assets/stone.png" id="stone">
+			<img src="assets/woodSpriteBack.jpg" id="sprite">
+			<img src="assets/purpleWoodBack.jpg" id="purpleSprite">
+			<img src="assets/planet.png" id="planet_img">
+			<img src="assets/ring.png" id="ring_img">
+			<img src="assets/water.jpg" id="water_img">
+			<!-- <img src = "assets/silver.jpg" id = "silver"> -->
+		</a-assets>
+		</a-asset>
+		<a-asset id="dragon_obj" src="dragon/model.obj"></a-asset>
+		<a-asset id="dragon_mtl" src="dragon/materials.mtl"></a-asset>
+		<a-asset id="tree_obj" src="tree/WeepingWillowTree.obj"></a-asset>
+		<a-asset id="tree_mtl" src="tree/WeepingWillowTree.mtl"></a-asset>
+		<a-asset id="forest_obj" src="forest/PUSHILIN_forest.obj"></a-asset>
+		<a-asset id="forest_mtl" src="forest/PUSHILIN_forest.mtl"></a-asset>
+		<a-asset id="bush_obj" src="bush/Bush.obj"></a-asset>
+		<a-asset id="bush_mtl" src="bush/Bush.mtl"></a-asset>
+		<a-asset id="rain_obj" src="rain/model.obj"></a-asset>
+		<a-asset id="rain_mtl" src="rain/materials.mtl"></a-asset>
+		<a-asset id="purpletree_obj" src="purpleTree/CherryTree.obj"></a-asset>
+		<a-asset id="purpletree_mtl" src="purpleTree/CherryTree.mtl"></a-asset>
+		<a-asset id="island_obj" src="island/island.obj"></a-asset>
+		<a-asset id="island_mtl" src="island/island.mtl"></a-asset>
+		<a-asset id="blueDragon_obj" src="bluedragon/blueDragon.obj"></a-asset>
+		<a-asset id="blueDragon_mtl" src="bluedragon/blueDragon.mtl"></a-asset>
+		<a-asset id="mountain_obj" src="mountain/mountain.obj"></a-asset>
+		<a-asset id="mountain_mtl" src="mountain/mountain.mtl"></a-asset>
+		<a-asset id="robot_mtl" src="robot/robot.mtl"></a-asset>
+		<a-sky id="theSky" src="#sky1" color="rgb(255,255,255)"></a-sky>
+	</a-scene>
+
+</body>
+
+</html>
